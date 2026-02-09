@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+img {
+  display: flex;
+  align-items: center;
+}
