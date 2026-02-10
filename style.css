@@ -1,10 +1,24 @@
-header {
-  display: flex;
-  align-items: center;
-  gap: 9.6rem;
+html {
+  font-size: 10px;
 }
 
-img {
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 96rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.page-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
