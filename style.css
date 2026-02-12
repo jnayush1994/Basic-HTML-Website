@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  max-width: 96rem;
+  max-width: 130rem;
   margin-left: auto;
   margin-right: auto;
   padding: 1.2rem;
@@ -18,7 +18,39 @@ body {
 }
 
 .page-header {
+  color: #495057;
+}
+
+.header-toolbar {
+  font-size: 1.6rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-weight: 500;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.page-navigation a:link,
+.page-navigation a:visited {
+  text-decoration: none;
+  color: #495057;
+}
+
+.page-navigation a:hover,
+.page-navigation a:active {
+  color: #343a40;
+}
+
+.header-content {
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4.4rem;
+  font-weight: 600;
 }
