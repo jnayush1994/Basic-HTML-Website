@@ -86,7 +86,7 @@ html {
 
 .project-item {
   font-size: 1.4rem;
-  padding: 1.6rem;
+  padding: 1.6rem 0;
   border-bottom: 2px solid #495057;
 }
 
@@ -106,7 +106,7 @@ html {
 .experience-item a:link,
 .experience-item a:visited {
   text-decoration: none;
-  color: #4dabf7;
+  color: #339af0;
 }
 
 .experience-item a:hover,
@@ -121,4 +121,34 @@ html {
 .experience-summary {
   line-height: 1.8;
   text-align: justify;
+}
+
+.education {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.education-text {
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.courses ul {
+  list-style-position: outside;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding-left: 1.5rem;
+}
+
+.courses ul li {
+  word-wrap: break-word;
 }
